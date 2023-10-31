@@ -19,7 +19,7 @@ public class MultiController {
 	public String multi(Model model) {
 
 		String result = "";
-		result = String.valueOf(multiService.multi(７, ７));
+		result = String.valueOf(multiService.multi(7, 7));
 		model.addAttribute("result", result);
 		return "multi.html";
 	}
